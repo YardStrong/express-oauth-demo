@@ -1,0 +1,27 @@
+{
+  "name": "express-oauth2-server-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./bin/starter.js"
+  },
+  "dependencies": {
+    "connect-ensure-login": "^0.1.1",
+    "connect-redis": "^3.3.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "http-errors": "^1.7.0",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.12",
+    "morgan": "^1.9.0",
+    "oauth2orize": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-client-password": "^0.1.2"
+  }
+}

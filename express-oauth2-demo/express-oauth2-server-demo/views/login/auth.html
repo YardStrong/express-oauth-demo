@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+<p>Hi <%= user.nickname %>!</p>
+<p><b><%= client.name %></b> is requesting access to your account.</p>
+<p>Do you approve?</p>
+
+<form action="/dialog/authorize/decision" method="post">
+    <input name="transaction_id" type="hidden" value="<%= transactionId %>" />
+    <div>
+    <input type="submit" value="Allow" id="allow" />
+    <input type="submit" value="Deny" name="cancel" id="deny" />
+    </div>
+</form>
+
+</body>
+</html>

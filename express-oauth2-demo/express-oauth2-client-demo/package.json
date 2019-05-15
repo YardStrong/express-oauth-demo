@@ -1,0 +1,18 @@
+{
+  "name": "express-oauth2-client-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./bin/starter.js"
+  },
+  "dependencies": {
+    "client-oauth2": "^4.2.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "popsicle": "^10.0.1"
+  }
+}
